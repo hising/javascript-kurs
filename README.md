@@ -3,9 +3,11 @@
 ## Modern JavaScript
 - ES6 (och nyare)
 - Klient (webbläsare) och server
-- String, Array, Objects, Events, Date
+- String, Array, Objects, Date
 - Ramverk (bara överblick) - React, Angular, Svelte, Vue, Express, Next.js
+- Typade språk (jmf Java) - TypeScript, Dart, Haxe, Elm osv
 - Browserstöd
+    - DOM / Events etc
     - Can I Use ___ ? - https://caniuse.com/
     - BabelJS
     - Polyfills
@@ -22,7 +24,7 @@
 - Alternativa metoder
 - Säkerhet - oAuth, JSON Web Token, Basic HTTP authentication 
 
-## Anropa API:er via JavaScript
+## Anropa API:er via JavaScript (från webbläsare)
 - Ajax (gammalt ord som hängt med)
 - Asynkront/Synkront (Callback, Promises, async-await)
 - Hackigt förut, nu väldigt standardiserat
@@ -41,6 +43,7 @@
 
 ## Vad vi inte täcker här
 - En sund och bra utvecklingsmiljö (Node, NVM, NPM/Yarn)
+- Server-side JavaScript (NodeJS)
 - Packagers (Webpack, Parcel etc)
 - Ramverk (React, Vue, Svelte, Angular)
 - Komponent-bibliotek (Material UI, Ant Design, VueX etc) 
