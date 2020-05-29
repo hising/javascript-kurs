@@ -4,10 +4,11 @@
 - ES6 (och nyare)
 - Klient (webbläsare) och server
 - String, Array, Objects, Date
-- Ramverk (bara överblick) - React, Angular, Svelte, Vue, Express, Next.js
+- Ramverk (överblick) - React, Angular, Svelte, Vue, Express, Next.js
+- Bundlers (överblick) - Webpack, Parcel, Rollup
 - Typade språk (jmf Java) - TypeScript, Dart, Haxe, Elm osv
 - Browserstöd
-    - DOM / Events etc
+    - Http Requests / DOM / Events etc
     - Can I Use ___ ? - https://caniuse.com/
     - BabelJS
     - Polyfills
@@ -29,7 +30,7 @@
 - Asynkront/Synkront (Callback, Promises, async-await)
 - Hackigt förut, nu väldigt standardiserat
 - Axios, Superagent etc
-- Fetch
+- Fetch - https://caniuse.com/#feat=fetch
 
 ## Lära sig mer
 - 30 Seconds of Code - https://www.30secondsofcode.org/js/p/1
@@ -42,7 +43,7 @@
 - StackOverflow - https://stackoverflow.com/
 
 ## Vad vi inte täcker här
-- En sund och bra utvecklingsmiljö (Node, NVM, NPM/Yarn)
+- En sund och bra utvecklingsmiljö (Node, NVM, NPM/Yarn, Github, Tooling, IDE)
 - Server-side JavaScript (NodeJS)
 - Packagers (Webpack, Parcel etc)
 - Ramverk (React, Vue, Svelte, Angular)
@@ -53,3 +54,4 @@
 - Formatting (ex Prettier)
 - Build/Deploy and Continous Integration (ex CircleCI alt. Github Actions)
 - Hosting (Netlify, VPS, Firebase, Cloud)
+- Server-Side Rendering (SSR)
