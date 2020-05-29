@@ -4,7 +4,10 @@
 - ES6 (och nyare)
 - Klient (webbläsare) och server
 - String, Array, Objects, Date
+- Functions, Desctructuring, Spread, this i funktioner
+- Scope, Closure and hoisting
 - Ramverk (överblick) - React, Angular, Svelte, Vue, Express, Next.js
+- State (ex React, Flux)
 - Bundlers (överblick) - Webpack, Parcel, Rollup
 - Typade språk (jmf Java) - TypeScript, Dart, Haxe, Elm osv
 - Browserstöd
@@ -55,3 +58,4 @@
 - Build/Deploy and Continous Integration (ex CircleCI alt. Github Actions)
 - Hosting (Netlify, VPS, Firebase, Cloud)
 - Server-Side Rendering (SSR)
+- Workflows (Pull Requests, Forks etc)
