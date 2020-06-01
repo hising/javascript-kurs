@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <!-- Hämta bara de paket du behöver för att göra det mer effektivt! -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+    <!-- The core Firestore service from Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Automobiles For Sale </h1>
+    
+    <div class="content">
+        <form id="add-car-form">
+            <input type="text" name="name" placeholder="Car name">
+            <input type="text" name="city" placeholder="Car city">
+            <button>Add Car</button>
+        </form>
+
+        <ul id="car-list">
+        <!-- Här stoppar JS in all information från firestore(DB)-->
+        </ul>
+
+    </div>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script>
+
+    <script>
+        // Vår webb apps firebase konfiguration som för att komma åt var firestore
+        var firebaseConfig = {
+            apiKey: "AIzaSyCYX_fwW1PR09CuzkZH7r0UtM55PPUbLT0",
+            authDomain: "jeffs-firebasedb.firebaseapp.com",
+            databaseURL: "https://jeffs-firebasedb.firebaseio.com",
+            projectId: "jeffs-firebasedb",
+            storageBucket: "jeffs-firebasedb.appspot.com",
+            messagingSenderId: "759278244284",
+            appId: "1:759278244284:web:60c05bc2e7ea10438a5bb9",
+            measurementId: "G-V59N8XG4LR"
+        };
+        firebase.initializeApp(firebaseConfig);
+        
+        // för att koppla oss mot databasen
+        const db = firebase.firestore();
+
+        /*
+         A setting for working with snapshots in Firestore
+         to avoid warnings and errors in the console
+         ---- db.settings({ timestampsInSnapshots: true });
+        */
+        firebase.analytics();
+    </script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

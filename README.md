@@ -1,6 +1,7 @@
-# JavaScript 
+# JavaScript
 
 ## Modern JavaScript
+
 - ES6 (och nyare)
 - Klient (webbläsare) och server
 - String, Array, Objects, Date
@@ -11,24 +12,27 @@
 - Bundlers (överblick) - Webpack, Parcel, Rollup
 - Typade språk (jmf Java) - TypeScript, Dart, Haxe, Elm osv
 - Browserstöd
-    - Http Requests / DOM / Events etc
-    - Can I Use ___ ? - https://caniuse.com/
-    - BabelJS
-    - Polyfills
+  - Http Requests / DOM / Events etc
+  - Can I Use \_\_\_ ? - https://caniuse.com/
+  - BabelJS
+  - Polyfills
 
 ## Öppna API:er
+
 - https://github.com/jdorfman/awesome-json-datasets
 
 ## REST
+
 - JSON
 - Stateless (ingen session, inga cookies etc) - URL-baserat (och headers)
 - CRUD - Skapa data (C), hämta data (R), ändra data (U), ta bort data (D)
 - CORS
 - Fördelar / Nackdelar
 - Alternativa metoder
-- Säkerhet - oAuth, JSON Web Token, Basic HTTP authentication 
+- Säkerhet - oAuth, JSON Web Token, Basic HTTP authentication
 
 ## Anropa API:er via JavaScript (från webbläsare)
+
 - Ajax (gammalt ord som hängt med)
 - Asynkront/Synkront (Callback, Promises, async-await)
 - Hackigt förut, nu väldigt standardiserat
@@ -36,6 +40,9 @@
 - Fetch - https://caniuse.com/#feat=fetch
 
 ## Lära sig mer
+
+- MDN Web Docs - https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- Web Dev Blog - Google - https://web.dev/blog/
 - 30 Seconds of Code - https://www.30secondsofcode.org/js/p/1
 - You Dont Know JS - https://github.com/getify/You-Dont-Know-JS
 - Node Best Practices - https://github.com/goldbergyoni/nodebestpractices
@@ -46,11 +53,12 @@
 - StackOverflow - https://stackoverflow.com/
 
 ## Vad vi inte täcker här
+
 - En sund och bra utvecklingsmiljö (Node, NVM, NPM/Yarn, Github, Tooling, IDE)
 - Server-side JavaScript (NodeJS)
 - Packagers (Webpack, Parcel etc)
 - Ramverk (React, Vue, Svelte, Angular)
-- Komponent-bibliotek (Material UI, Ant Design, VueX etc) 
+- Komponent-bibliotek (Material UI, Ant Design, VueX etc)
 - Styling (CSS in JS etc)
 - Testning (unit, end-to-end, integration)
 - Linting (ex eslint)
