@@ -1,0 +1,33 @@
+{
+  "name": "javascript-kurs",
+  "version": "1.0.0",
+  "description": "## Modern JavaScript - ES6 (och nyare) - Klient (webbläsare) och server - String, Array, Objects, Date - Functions, Desctructuring, Spread, this i funktioner - Scope, Closure and hoisting - Ramverk (överblick) - React, Angular, Svelte, Vue, Express, Next.js - State (ex React, Flux) - Bundlers (överblick) - Webpack, Parcel, Rollup - Typade språk (jmf Java) - TypeScript, Dart, Haxe, Elm osv - Browserstöd     - Http Requests / DOM / Events etc     - Can I Use ___ ? - https://caniuse.com/     - BabelJS     - Polyfills",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write src/**/*.{js,css,md}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hising/javascript-kurs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hising/javascript-kurs/issues"
+  },
+  "homepage": "https://github.com/hising/javascript-kurs#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.7",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
+}
