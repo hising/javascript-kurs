@@ -1,37 +1,72 @@
 # JavaScript
 
-## Intro
+## Torsdag - förmiddag
 
--   Upplägg
 -   Mattias - Utvecklare (DICE, King, Embark, bwin, Ongame mfl) i 20+ år
+-   Upplägg - Verktyg, Modern JavaScript - ES6/ES2015+, REST/CRUD/API:er, Ramverk överblick
 -   JavaScript - Förväntningar
+-   JavaScript - Browser, Server, Verktyg
+-
 
 ## Upplägg
 
--   Gå genom const, let, array, objects, strings, es6-specifics
--   Gå genom [NPM](https://www.npmjs.com/)
--   Gå genom [BabelJS](https://babeljs.io/)
--   Övningar:
-    -   Try out const, let. Try to reassign a const vs reassign a let. Test scope of let variables.
-    -   Try out array and object spread assignment
-    -   Try out array and object desctructuring
-    -   Stretch Goal 1: [Install NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-    -   Stretch Goal 2: Create a NPM-project (hint: `npm init`)
-    -   Stretch Goal 3: Add BabelJS as a devDependency in your NPM-project (hint: `npm init`)
+-   Lära sig grundläggande verktyg (Git, Node, NPM)
+-   Sätta upp en basic utvecklingsmiljö som passar modern JS-utveckling
+-   Gå genom nyare tillägg till JavaScript (ES6, ES2015+ osv)
+-   Asynkron vs synkron kod. Callback, Promises eller async/await? - Race conditions
+
+-   Vad är en CRUD-applikation?
+-   Vad är REST? GET, POST, PUT, DELETE, OPTIONS
+-   Kommunicera med ett REST-API via fetch
+-   CORS
+-   API-säkerhet - Never trust the client - oAuth, JSON Web Token
+-   Ramverk? Vad löser React?
+
+### Grundläggande verktyg
+
+-   Terminal - lär dig jobba i terminalen (Tips: GitBash om ni kör Windows)
+-   Git - versionshantering.
+-   Node - En JavaScript-runtime (jmf Java Runtime) byggd på Chromes V8 JavaScript-motor
+-   NPM - Node Package Manager - Bundlad med node för att hantera beroenden
+-   Webpack - node/npm-modulhantering/paketerare för webbläsare - bundla kod, utvecklingsmiljö
+-   BabelJS - Skriv ES2015+ kod och låt BabelJS hantera problematik med äldre webbläsare
+-   NPM Script - Skapa script för att förenkla ditt liv när du utvecklar
+-   Behöver man allt det här? Det beror på.
+
+## Verktyg du kommer stöta på (som vi inte använder här)
+
+-   Test Tools - Jest, E2E-tests, Mocha etc
+-   NVM - Node Version Manager - Hantera olika versioner av node/npm per projekt
+-   Containers & Virtualisering - Docker/Vagrant/Kubernetes
+-   TypeScript - typat JavaScript - vanligt förekommande i stora kodbaser
+-   Linters - ESLint, TSLint - följ guidelines, hittar småfel
+-   Formatters - Prettier - "Så här ska koden se ut"
+-   .dotenv - Hantera konfiguration baserat på miljö (utvecklingsmiljö eller live)
+-   Continous Integration - Github Actions, CircleCI etc
+-   Commit Hooks - Husky etc
 
 ## Modern JavaScript
 
--   ES6 (och nyare)
--   NPM
--   BabelJS
--   Klient (webbläsare) och server
--   String, Array, Objects, Date
--   Functions, Desctructuring, Spread, this i funktioner
--   Scope, Closure and hoisting
+-   ES6, ES2015 (och nyare)
+-   Funkar det i alla browsers? Nja. Därför BabelJS
+-   let, const, export, import, default;
+-   String, Array, Objects
+-   Functions, Desctructuring, Spread, Templates
+
+## Asynkron kod
+
+-   Vad är skillnaden mellan synkron och asynkron kod?
+-   Vilka sätt finns det att köra asynkron kod i JavaScript?
+-   Callback(-hell)
+-   Promises
+-   Async/await
+-   Race Condition
+-   Hur hantera ett UI när all data kommer asynkront?
+
+## Ramverk
+
 -   Ramverk (överblick) - React, Angular, Svelte, Vue, Express, Next.js
 -   State (ex React, Flux)
--   Bundlers (överblick) - Webpack, Parcel, Rollup
--   Typade språk (jmf Java) - TypeScript, Dart, Haxe, Elm osv
 -   Browserstöd
     -   Http Requests / DOM / Events etc
     -   Can I Use \_\_\_ ? - https://caniuse.com/
@@ -47,7 +82,7 @@
 
 -   JSON
 -   Stateless (ingen session, inga cookies etc) - URL-baserat (och headers)
--   CRUD - Skapa data (C), hämta data (R), ändra data (U), ta bort data (D)
+-   CRUD -
 -   CORS - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 -   Fördelar / Nackdelar
 -   Alternativa metoder
